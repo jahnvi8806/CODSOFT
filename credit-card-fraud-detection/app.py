@@ -1,7 +1,11 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("fraud_model.pkl")
+import os
+import joblib
+
+model_path = os.path.join(os.path.dirname(__file__), "fraud_model.pkl")
+model = joblib.load(model_path)
 
 st.title("Credit Card Fraud Detection")
 
