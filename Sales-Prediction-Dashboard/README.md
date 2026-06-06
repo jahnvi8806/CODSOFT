@@ -26,6 +26,7 @@ A machine learning dashboard built using Streamlit and Scikit-Learn for predicti
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 Live demo:
 [live demo](https://codsoft-2advwbeqmtbazojnuslcjr.streamlit.app/)
